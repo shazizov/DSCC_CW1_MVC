@@ -1,0 +1,33 @@
+2020-02-20 12:51:29.5850 - testusernamelogged in
+2020-02-20 16:35:04.3770 - testusername logged in
+2020-02-20 22:10:48.5947 - testusername logged in
+2020-02-20 22:20:22.8869 - testusername logged in
+2020-02-20 22:24:21.1016 - testusername logged in
+2020-02-20 23:22:16.2294 - User edited ProductBraceletwith ID11
+2020-02-20 23:22:21.2849 - User logged Out
+2020-02-20 23:32:46.5131 - testusername logged in
+2020-02-20 23:32:59.0622 - User logged Out
+2020-02-20 23:34:12.6327 - testusername logged in
+2020-02-20 23:34:56.1393 - User deleted Product with ID17
+2020-02-20 23:35:29.4050 - User added new ProductDemoProductwith ID1023
+2020-02-20 23:41:26.8340 - User logged Out
+2020-02-20 23:42:26.3547 - testusername logged in
+2020-02-20 23:43:20.2440 - User added new ProductDemoProductwith ID1024
+2020-02-20 23:43:27.2329 - User deleted Product with ID22
+2020-02-20 23:43:39.1804 - User logged Out
+2020-02-20 23:44:27.5850 - Azizov97 is Registered
+2020-02-20 23:44:41.2554 - Azizov97 logged in
+2020-02-20 23:45:01.5486 - User logged Out
+2020-02-20 23:45:26.0706 - testusername logged in
+2020-02-20 23:46:26.2544 - User added new ProductDemoProductwith ID1025
+2020-02-20 23:46:34.6053 - User deleted Product with ID1023
+2020-02-20 23:47:26.3207 - User logged Out
+2020-02-20 23:47:54.1463 - User logged Out
+2020-02-20 23:48:15.9316 - testusername logged in
+2020-02-20 23:48:46.4033 - User logged Out
+2020-02-20 23:49:10.2344 - testusername logged in
+2020-02-20 23:49:47.6794 - User added new ProductDemoProductwith ID1026
+2020-02-20 23:49:54.9465 - User deleted Product with ID1024
+2020-02-20 23:50:14.9247 - User logged Out
+2020-02-20 23:51:27.6184 - uaser is Registered
+2020-02-20 23:51:37.1572 - uaser logged in

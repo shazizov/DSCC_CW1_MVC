@@ -1,0 +1,58 @@
+﻿@using Esavdo.Resources
+@model EsavdoDAL.Entities.Product
+
+@{
+    ViewBag.Title = @HomeTexts.Delete;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@HomeTexts.Delete</h2>
+
+<div>
+    <h4>@HomeTexts.Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName(@HomeTexts.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayName(@HomeTexts.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayName(@HomeTexts.Available)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Available)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayName(@HomeTexts.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink(@HomeTexts.Back, "Index")
+        </div>
+    }
+</div>

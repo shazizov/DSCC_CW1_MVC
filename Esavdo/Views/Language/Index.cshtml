@@ -1,0 +1,13 @@
+﻿@using Esavdo.Resources
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@HomeTexts.Language</h2>
+
+<ul>
+    <li>@Html.ActionLink("English", "Index", "Language", new { LanguageAbbrevation = "en" }, null)</li>
+    <li>@Html.ActionLink("Uzbek", "Index", "Language", new { LanguageAbbrevation = "uz" }, null)</li>
+</ul>

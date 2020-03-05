@@ -1,0 +1,31 @@
+﻿<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        @{
+            if (ViewBag.LoggedOut != "Yes")
+            {
+                @Html.ActionLink("E-Savdo LLC", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
+            }
+        }
+        </div>
+        @{
+            if (ViewBag.LoggedOut != "Yes")
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink(Esavdo.Resources.HomeTexts.Products, "Index", "Products")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>@Html.ActionLink(Esavdo.Resources.HomeTexts.Language, "Index", "Language")</li>
+                        <li>@Html.ActionLink(Esavdo.Resources.HomeTexts.LogOut, "Logout", "Home")</li>
+                    </ul>
+                </div>
+            }
+        }
+    </div>
+</div>
